@@ -64,7 +64,6 @@ D.main()
 
 # 3.===========================================
 
-
 def SelectionSort(array):
     data = array[0]
     for i in range(len(data)):
