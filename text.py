@@ -91,7 +91,7 @@ for item in data:
 # 8*log(log(n)) = O(log(log(n)))
 # log(n^2) = O(log(n))
 # n/100+10000/(n^2) = O(n)
-# log(n!) = O(log(n))
+# log(n!) = O(n*log(n))
 
 # 5.===========================================
 
