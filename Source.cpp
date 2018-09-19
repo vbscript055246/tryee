@@ -14,8 +14,8 @@ class Animal{
 
 class Cat:public Animal{
 	public:
-		string move(){return "跳";}
-};
+		string move(){return "跳";} // virtual +在最前面的話就會跟JAVA的執行結果一樣
+};                                  // 換句話說 Java 預設所有被繼承的父類別的函式是virtual function
 
 class Tiger:public Cat{
 	public:
@@ -135,7 +135,14 @@ int main() {
 		跑
 		獵殺
 		動
-	*/
+
+    如果有加virtual:
+        跳
+		跑
+		跑
+		獵殺
+		動
+    */
 
 	cout << endl;
 
