@@ -2,7 +2,8 @@ import datetime
 
 
 def get_month(num):
-    return num if num > 0 else (12 + num)
+    return int(num < 0)*12 + num
+    # return num if num > 0 else (12 + num)
 
 
 print("Hello~")

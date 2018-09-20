@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/temp.py" line="13" />
+    <bookmark url="file://$PROJECT_DIR$/temp.py" line="15" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="">
@@ -68,14 +68,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
-          <entry key="py" value="439" />
+          <entry key="py" value="477" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="439" />
+          <entry key="Python" value="477" />
         </counts>
       </usages-collector>
     </session>
@@ -85,10 +85,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            <state relative-caret-position="60">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
               <folding>
-                <marker date="1537460225672" expanded="true" signature="36:81" ph="..." />
+                <marker date="1537460673524" expanded="true" signature="70:117" ph="..." />
               </folding>
             </state>
           </provider>
@@ -123,10 +123,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="413" />
-    <option name="y" value="-28" />
-    <option name="width" value="595" />
-    <option name="height" value="664" />
+    <option name="x" value="2187" />
+    <option name="y" value="-41" />
+    <option name="width" value="340" />
+    <option name="height" value="379" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -282,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537457828279</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="better~">
+      <created>1537460255221</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1537460255221</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -295,15 +302,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
+    <frame x="1912" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.12546468" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.13473053" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.13473053" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32873562" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24444444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,10 +388,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
           <folding>
-            <marker date="1537460225672" expanded="true" signature="36:81" ph="..." />
+            <marker date="1537460673524" expanded="true" signature="70:117" ph="..." />
           </folding>
         </state>
       </provider>
