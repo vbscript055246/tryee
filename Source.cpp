@@ -14,8 +14,8 @@ class Animal{
 
 class Cat:public Animal{
 	public:
-		string move(){return "跳";}
-};
+		virtual string move(){return "跳";} //Java預設所有的函式都有加 virtual
+};											//反而提供了final來阻止子類別 functionoverload
 
 class Tiger:public Cat{
 	public:
