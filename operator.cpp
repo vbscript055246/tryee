@@ -266,9 +266,9 @@ private:
 };
 
 ostream &operator<<(ostream &os, BigNum &num) {
-	if (num.sign) cout << "-";
+	if (num.sign) os << "-";
 	for (int i = num.num.size()-1; i >=0 ; i--)
-		cout << num.num[i];
+		os << num.num[i];
 	return os;
 }
 
