@@ -1,0 +1,257 @@
+前言:
+	這原本是一篇給已經有學過其他語言(C,Java)的人看的教學文
+	經改版更新後,目前主要轉為對初學的朋友怎麼裝的講解
+
+
+Q:學一個語言的第一件事 why python?
+
+A:優點為下列幾點:
+		
+		[極]"容易"編寫,上手快,功能強大
+		很多先進的技術用python可以輕鬆寫得出來,EX: 大數據分析,AI,網頁爬蟲(一種用程式抓網頁資料的技術)
+		很多各種原先要分好幾種語言才能完成的事,python一個人就搞定全部,EX: 網頁前後端,伺服器API
+		這語言"外部模組"很多 光官方有正式認證的就有1282762個 (別數了是 128"萬"2762個)
+		
+		
+		"修(ㄋㄨㄥˋ )正(ㄙˇ)"那些寫程式"不排版"的人:
+		
+			所謂 "排版" 就像你寫文章要空行一樣,寫程式的時候亂排版,
+			基本上只會搞得人類很難看懂,但程式依然可以執行,
+			但python卻把"排版"當作一種"分段",
+			程式會不能執行的
+
+			
+  缺點主要就是執行速度慢(要對程式語言有種概念 越好寫的語言 電腦就幫你想的越多 所以就會變慢)
+
+
+	快速上手python要學的幾個項目:
+	
+		1.怎麼把python裝好
+		2.什麼是Python Package
+		3.Python Package怎麼找
+		4.怎麼裝Python Package
+		5.IDE的"簡"介
+		6.Python語法"簡"介
+		7.Python Package怎麼用
+
+
+1.怎麼把python裝好
+
+	首先到官網https://www.python.org/downloads/
+	去按"Download Python3.6.4"	https://i.imgur.com/kgV53wB.png (這邊就不因為新版本更新了 因為差不多)
+	按裝的部分很簡單 就是一直下一步
+	(請在一開始的畫面把建立"環境變數"的選項勾起來 (英文是Add Python to PATH) "PATH"就是所謂環境變數
+
+	================================
+	驗證python是否裝好的方法
+	直接按windown鍵(簡稱win鍵)+R鍵
+	輸入cmd後按enter
+	輸入python後按enter
+	有東西跑出來 但不是"python非可使用的指令"之類的
+	就是裝好囉~
+	================================
+
+2.什麼是Python Package
+	
+	簡單說就是語法擴充包
+	
+	
+	學過語言的:
+	
+		Python Package = 以C跟C++翻譯 #include <這裡的東西>
+					   = 以Java翻譯 import 這裡的東西
+					   = 以VB翻譯 import 這裡的東西
+					   = 以matlab翻譯 import 這裡的東西
+					   
+				
+	沒學過的:
+	
+		簡單來說,"程式語言"既然是"語言" 語言中的"字詞"就必需要被"定義"
+		
+		舉個我們很熟的中文當例子,我們很習慣說"北車","北車"在北部人的心中已經有定義了 北車=台北車站 對吧~
+		但外縣市的人呢? 對他們來說"北車" 是沒有定義的,所以他們會不懂你在說什麼
+		
+		此時他們就需要"去讀"一本"北部辭典大全",才會懂 北車=台北車站
+		那Python Package 就是某種"辭典大全",讓你的python能讀懂更多詞
+		
+
+	簡而言之就是 讓python有更多語法可以用
+
+
+3.Python Package怎麼找
+
+	google "python 你想要使用的功能"
+	EX: python LINE BOT,python matlab,python 影像處理,python 遊戲
+	就會有很多的資訊了
+
+
+4.怎麼裝Python Package
+
+	基本上找到Package的官網就解決了
+	官網會教你怎麼裝(主要是用"指令"
+	
+
+	官網分兩種:
+
+		Package自己建立的 EX: https://i.imgur.com/OVKwvTb.png
+
+		python有認證建立的 EX: https://i.imgur.com/Jqx2xP5.png
+		py官方安裝的部分要往下滑 https://i.imgur.com/v8ja3WP.png
+		(至於我們一般的都是用windows 所以前面的"sudo"請忽略 "pip3"也當"pip"就好
+
+
+	這概論一下:
+
+		95%都很簡單
+		找出你的cmd (按win鍵+R鍵 輸入cmd後按enter)
+		輸入pip intsall "模組包名稱" 後按enter
+		它就會自己開始跑
+		跑完會顯示安裝成功
+
+		剩下5% 像numpy這類模組
+		有一個非官方網站 https://www.lfd.uci.edu/~gohlke/pythonlibs/
+		整理了所有windows不能pip直接裝的模組
+		先自己找到符合電腦規格與python版本的安裝包
+		下載後 跟上面類似 用指令pip install 檔案位址
+		(不會的再來問吧~)
+		
+		
+	註解:
+		
+		cmd = command = 命令提示字元(中國或其他華人地區有可能叫他"終端機"或"Terminal")
+		是windows從原古時代(那些年連電腦都不普及 沒有"視窗"概念的年代) 留下的產物
+		某方面來說 cmd 就是所謂 "DOS作業系統"
+		它可以搬移檔案 複製檔案 瀏覽檔案 做到你現在在"檔案總管"上的所有事情
+		只是不是用"滑鼠"(因為沒有所謂的"視窗") 而是用"指令"來操作
+		現在則轉型成 如果要對電腦做更進階的操作 就可以使用它來完成
+		
+		
+5.IDE的"簡"介
+
+	先說IDE是啥: (完整詳情https://zh.wikipedia.org/wiki/%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)
+		
+		就是讓你可以寫程式 編譯程式 執行程式的軟體總稱為IDE(換句話說原本這三件事是分開的)
+
+		
+	官方預設的IDE:
+
+		隨便弄一個新文字文件.txt的那種(就"記事本"啦~隨便存
+		把附檔名改成.py
+		然後右鍵->Edit with IDLE->Edit with IDLE
+		然後就開好了
+		按F5是編譯執行 error的訊息跟輸出會在執行的視窗上
+
+		
+	目前很多人用的PyCharm:
+
+		有付費版跟免費版
+		去官往下載安裝(也是一直下一步就好
+		開新專案 最上面file->newfile->python->取名子->開始寫
+		左上按綠色的播放鍵編譯執行
+		編譯執行有選項的話選你在寫的那的檔案->run
+
+
+6.Python語法"簡"介
+	
+	(這裡很不好學 大概看看就好 有學過程式的在考慮讀 等上課教最好)
+	python 不用宣告變數 可以直接使用
+	也就是第一次的使用就是宣告
+
+	EX:
+		code:
+			a = 20
+			print(a)
+			
+		result:
+			20
+	================================
+	
+	輸出語法 print()
+	()裡面裝啥都可以 有字串變數跟文字的話用+號連接
+
+	================================
+	
+	輸入語法 裝輸入的變數=input(提示輸入的文字)
+
+	================================
+	
+	"縮排"就是"大括弧"的範圍(再亂縮排啊~
+	(一個Tab鍵 = 4個空白鍵 = 一排)
+	縮排錯誤的error message是"unexpected indent"
+
+	Python:							C:								C++:							Java:
+
+	a = 20							int a = 20;						int a = 20;						int a = 20;
+
+	if a == 20:						if(a == 20){					if(a == 20){					if(a == 20){
+		print("Hello World!!!")			printf("Hello World!!!");		cout << "Hello World!!!";		System.out.printf("Hello World!!!");
+									}								}								}
+	elif a == 40:					else if(a == 40){               else if(a == 40){				else if(a == 40){
+		print("!?")						printf("!?");					cout << "!?";					System.out.printf("!?");
+									}								}								}
+	else:							else{							else{							else{
+		print("?!")						printf("?!");					cout << "?!";					System.out.printf("?!");
+		c = 99							int c = 99;						int c = 99;						int c = 99;
+									}								}								}
+	b = 10                          int b = 10;						int b = 10;						int b = 10;
+									
+	================================================================================================
+	
+	Python:							VB:									matlab:
+
+	a = 20							Dim a = 20							a = 20
+
+	if a == 20:						If a = 20 Then						if a == 20
+		print("Hello World!!!")			Console.Write("Hello World!!!")		fprintf("Hello World!!!")
+	elif a == 40:					ElseIf a = 40 Then	               	elseif a == 40
+		print("!?")						Console.Write("!?")					fprintf("!?")
+	else:							Else								else
+		print("?!")						Console.Write("?!")					fprintf("?!")
+		c = 99							Dim c = 99							c = 99
+									End If								end
+	b = 10							Dim b = 10                          b = 10
+
+	================================================================================================
+	
+	函式宣告語法
+	def 函式名稱:
+		...
+		...
+		...
+		要不要return都可以
+		
+		如果要return多項數值可以return [num1,num2,num3]
+
+	================================
+	
+	陣列宣告語法
+	python的陣列叫list,list是"動態"的
+	直接 a = [1,2,3,4,5] 或 a = [] 都可以
+	a.append(9) 可以使"9"插入到陣列的最後一個元素
+	len(a) 可以得到陣列的長度
+	可以print(a) a中的每個元素都會被印出來
+
+	================================
+	
+	其他基本語法
+	條件流程控制類:if
+	迴圈類:for while
+	結構類:class
+	
+	資料型態
+	https://www.techbeamers.com/python-data-types-learn-basic-advanced/
+
+	微函式
+	https://www.techbeamers.com/python-lambda/
+	
+	Regular Expression處理字串
+	https://docs.python.org/3/library/re.html
+	
+	python 還有很多別的語言沒有的特性
+	是python大師的話可以寫出很難看懂的程式
+	
+
+7.Python Package怎麼用
+
+	import Package_name
+	其他關於Package的語法去Package的官網看
