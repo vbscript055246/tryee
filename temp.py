@@ -14,4 +14,3 @@ today = datetime.date.today()
 print(str(today.year - int(BDY)) + " years old")
 
 print(get_month(datetime.date(int(BDY), int(BDM), int(BDD)).month - today.month))
-
