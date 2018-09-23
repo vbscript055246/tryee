@@ -33,6 +33,7 @@ steps = [point(5, 8, 1)]
 map[8][5] = 'st'
 
 
+# 廣度優先搜尋
 def bfs(map, end):
 
     while(len(steps)):

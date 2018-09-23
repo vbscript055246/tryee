@@ -31,6 +31,7 @@ ways = [point(0, -1), point(-1, 0), point(1, 0), point(0, 1)]
 steps = []
 
 
+# 深度優先搜尋
 def dfs(map, poi, end):
 
     if poi.x < 0 or poi.y < 0 or poi.x >= len(map[0]) or poi.y >= len(map) or map[poi.y][poi.x] != 0:
