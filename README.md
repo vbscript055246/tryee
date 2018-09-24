@@ -1,6 +1,6 @@
 # tryee
 ##### For datastructure homework~
-
+#### 想執行程式碼卻沒有環境可以用 https://ideone.com/ideone/Index/submit/ 直接線上編譯喔~
 ### 補充
  - pointer
 一句話: 儲存變數記憶體位址的變數
