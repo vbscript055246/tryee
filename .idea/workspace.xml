@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +84,7 @@
     <session id="1294211128">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -97,12 +96,12 @@
         <counts>
           <entry key="dummy" value="30" />
           <entry key="py" value="288" />
-          <entry key="txt" value="60" />
+          <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="90" />
+          <entry key="PLAIN_TEXT" value="104" />
           <entry key="Python" value="288" />
         </counts>
       </usages-collector>
@@ -123,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="94">
+              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <marker date="1537720981447" expanded="true" signature="96:97" ph="..." />
               </folding>
@@ -166,10 +165,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="871" />
-    <option name="y" value="463" />
+    <option name="x" value="869" />
+    <option name="y" value="462" />
     <option name="width" value="595" />
-    <option name="height" value="686" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -391,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537712784128</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add list demo">
+      <created>1537721008272</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1537721008272</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -412,7 +418,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25945947" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25945947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40144664" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,7 +440,8 @@
     <MESSAGE value="better~" />
     <MESSAGE value="new stack and queue demo" />
     <MESSAGE value="file name update~" />
-    <option name="LAST_COMMIT_MESSAGE" value="file name update~" />
+    <MESSAGE value="add list demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add list demo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
@@ -498,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        <state relative-caret-position="94">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
             <marker date="1537720981447" expanded="true" signature="96:97" ph="..." />
           </folding>

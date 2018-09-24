@@ -179,37 +179,11 @@ A:優點為下列幾點:
 	(一個Tab鍵 = 4個空白鍵 = 一排)
 	縮排錯誤的error message是"unexpected indent"
 
-	Python:							C:								C++:							Java:
-
-	a = 20							int a = 20;						int a = 20;						int a = 20;
-
-	if a == 20:						if(a == 20){					if(a == 20){					if(a == 20){
-		print("Hello World!!!")			printf("Hello World!!!");		cout << "Hello World!!!";		System.out.printf("Hello World!!!");
-									}								}								}
-	elif a == 40:					else if(a == 40){               else if(a == 40){				else if(a == 40){
-		print("!?")						printf("!?");					cout << "!?";					System.out.printf("!?");
-									}								}								}
-	else:							else{							else{							else{
-		print("?!")						printf("?!");					cout << "?!";					System.out.printf("?!");
-		c = 99							int c = 99;						int c = 99;						int c = 99;
-									}								}								}
-	b = 10                          int b = 10;						int b = 10;						int b = 10;
-									
-	================================================================================================
+	Python C C++ Java 對照
+	https://pastebin.com/GGfyBdbz
 	
-	Python:							VB:									matlab:
-
-	a = 20							Dim a = 20							a = 20
-
-	if a == 20:						If a = 20 Then						if a == 20
-		print("Hello World!!!")			Console.Write("Hello World!!!")		fprintf("Hello World!!!")
-	elif a == 40:					ElseIf a = 40 Then	               	elseif a == 40
-		print("!?")						Console.Write("!?")					fprintf("!?")
-	else:							Else								else
-		print("?!")						Console.Write("?!")					fprintf("?!")
-		c = 99							Dim c = 99							c = 99
-									End If								end
-	b = 10							Dim b = 10                          b = 10
+	Python VB matlab 對照
+	https://pastebin.com/NjBVFEda
 
 	================================================================================================
 	
