@@ -6,26 +6,26 @@
 #include <ctime>
 using namespace std;
 
-// §@·~1
+//ç¬¬ä¸€é¡Œ
 class Animal{
 	public:
-		string move(){return "°Ê";}
+		string move(){return "å‹•";}
 };
 
 class Cat:public Animal{
 	public:
-		virtual string move(){return "¸õ";} //Java¹w³]©Ò¦³ªº¨ç¦¡³£¦³¥[ virtual
-};											//¤Ï¦Ó´£¨Ñ¤Ffinal¨Óªı¤î¤lÃş§O functionoverload
+		virtual string move(){return "è·³";} //Javaé è¨­æ‰€çš„å‡½å¼éƒ½æœ‰ virtual
+};											//å¦å¤–æä¾›finalä¾†é˜»æ­¢å­é¡åˆ¥å°çˆ¶é¡åˆ¥ functionoverload
 
 class Tiger:public Cat{
 	public:
-		string move(){return "¶]";}
+		string move(){return "è·‘";}
 
-		string skill(){return "Ây±ş";}
+		string skill(){return "çµæ®º";}
 };
 
 
-//§@·~2
+//ç¬¬äºŒé¡Œ
 class Demo{
 	public:
 		Demo():divider(1){}
@@ -52,8 +52,8 @@ class Demo{
 };
 
 
-//§@·~3
-//C»y¨¥ª©
+//ç¬¬ä¸‰é¡Œ
+//Cèªè¨€ç‰ˆ
 int minimum(int *array,int n){
 	int i,index,min = 99999999;
 	for(i=0;i<n;i++){
@@ -79,7 +79,7 @@ void SelectionSort(int *array,int n){
 	}
 }
 
-//C++»y¨¥ª©
+//C++èªè¨€ç‰ˆ
 void SelectionSort(vector<int> &array){ //call by reference
 	for(int i=0;i<array.size();i++){
 		vector<int>::iterator result = min_element(array.begin(),array.begin()+array.size()-i);
@@ -88,7 +88,7 @@ void SelectionSort(vector<int> &array){ //call by reference
 	}
 }
 
-//§@·~5
+//ç¬¬äº”é¡Œ
 void binarySearch(vector<int> array,int target){ //call by value
 	int mid = array.size()/2;
 	if(array.size() == 1 && target != array[0]){
@@ -110,31 +110,45 @@ void binarySearch(vector<int> array,int target){ //call by value
 
 int main() {
 
+    //åŸå§‹å‹æ…‹ å¾é›»è…¦æ‹¿äº†ä¸€å¨Catå½¢ç‹€çš„é»åœŸ é€™å¨é»åœŸå«"cat"
 	Cat cat;
-	cout << cat.move() << "\n";
+	//è¡¨ç¾å‡ºCatçš„æ¨£å­
+	cout << cat.move() << "\n"; // return è·³
+
+
+	//åŸå§‹å‹æ…‹ å¾é›»è…¦æ‹¿äº†ä¸€å¨"Tiger"å½¢ç‹€çš„é»åœŸ é€™å¨é»åœŸå«"tiger"
 	Tiger tiger;
 
 
-	//³o¸Ì´N¥i¥H¬İ¥X¨CºØ»y¨¥·|¦³¤£¦P¯S©Ê
-	//¦Ó¤@¤Áªº°_ÂI³£¦b³o¸Ì
-	//Tiger¥i¥H³Q©Ò¦³ªº¤÷Ãş§Oªº«ü¼ĞÅÜ¼ÆÀx¦s
-	//¥i¬O¦b¤£¦Pªº®e¾¹¤U¨ç¦¡§@¥Î¬O¤£¦Pªº
+    //é»åœŸå«"tiger"çš„è¢«...
+
+	//å¡é€²Catçš„æ¨¡å­
 	Cat *cat2 = &tiger;
-	cout << cat2->move() << "\n";
+    //è¡¨ç¾å‡ºCatçš„æ¨£å­ ä½†æ˜¯å› ç‚º"virtual"(ç¬¬17è¡Œ)ä½¿ä»–è¡¨ç¾å‡ºTigerçš„æ¨£å­
+    //æ²’æœ‰çš„è©± æ˜¯return è·³,Javaé è¨­æ‰€æœ‰çš„functionéƒ½æœ‰åŠ virtual
+	cout << cat2->move() << "\n"; // return è·‘
 
+
+    //å¡é€²Tigerçš„æ¨¡å­
 	Tiger *tig = &tiger;
-	cout << tig->move() << "\n";
-	cout << tig->skill() << "\n";
+	//è¡¨ç¾å‡ºTigerçš„æ¨£å­
+	cout << tig->move() << "\n"; //return è·‘
+	cout << tig->skill() << "\n"; // return çµæ®º
 
+
+    //å¡é€²Animalçš„æ¨¡å­
 	Animal *mal = &tiger;
-	cout << mal->move() << "\n";
+	//è¡¨ç¾å‡ºAnimalçš„æ¨£å­
+	cout << mal->move() << "\n"; //return å‹•
+
+
 	/*
-	°õ¦æµ²ªG:
-		¸õ
-		¸õ
-		¶]
-		Ây±ş
-		°Ê
+	è¼¸å‡ºçµæœ:
+        è·³
+        è·‘
+        è·‘
+        çµæ®º
+        å‹•
 	*/
 
 	cout << endl;
@@ -144,7 +158,7 @@ int main() {
 
 	cout << endl;
 
-	srand(time(NULL)); // ¶Ã¼Æªì©l
+	srand(time(NULL)); // äº‚æ•¸åˆå§‹
 
 	int array[25]={0};
 	for(int i=0;i<25;i++) array[i] = rand()%(1001);
