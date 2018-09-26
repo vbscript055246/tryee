@@ -1,6 +1,8 @@
+# 純屬加速, DP = Dynamic Programing
 DP = []
 for i in range(1000):
     DP.append(-1)
+
 
 def F(a):
     if a == 0:
