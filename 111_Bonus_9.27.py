@@ -50,6 +50,5 @@ def F(a):
 
 i = 0
 while DP[i] < 6765 and DP[i] != -1:
-    F(i)
-    print(DP[i])
+    print(F(i))
     i += 1
