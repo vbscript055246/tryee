@@ -1,3 +1,4 @@
+# 複雜度O(n)
 def transpose(array):
     ans = []
     for i in range(len(array)):

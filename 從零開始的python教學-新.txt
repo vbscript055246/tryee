@@ -1,4 +1,4 @@
-前言:
+﻿前言:
 	這原本是一篇給已經有學過其他語言(C,Java)的人看的教學文
 	經改版更新後,目前主要轉為對初學的朋友怎麼裝的講解
 
@@ -59,9 +59,9 @@ A:優點為下列幾點:
 	學過語言的:
 	
 		Python Package = 以C跟C++翻譯 #include <這裡的東西>
-					   = 以Java翻譯 import 這裡的東西
-					   = 以VB翻譯 import 這裡的東西
-					   = 以matlab翻譯 import 這裡的東西
+			       = 以Java翻譯 import 這裡的東西
+			       = 以VB翻譯 import 這裡的東西
+			       = 以matlab翻譯 import 這裡的東西
 					   
 				
 	沒學過的:

@@ -1,7 +1,7 @@
 def checkUpperTriangular(array):
     for i, col in enumerate(array):
         for j, row in enumerate(col):
-            if i <= j and array[i][j] == 0:
+            if i > j and array[i][j] != 0:
                 return False
     return True
 
