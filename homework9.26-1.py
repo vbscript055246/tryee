@@ -1,16 +1,12 @@
 # 純屬加速, DP = Dynamic Programing
-DP = []
-for i in range(1000):
-    DP.append(-1)
+DP = [0]*10000
 
 
 def F(a):
-    if a == 0:
-        return 0
-    elif a == 1:
-        return 1
+    if a < 2:
+        return a
     else:
-        if DP[a] == -1:
+        if not DP[a]:
             DP[a] = F(a-1) + F(a-2)
         return DP[a]
 
