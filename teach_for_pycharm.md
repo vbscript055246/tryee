@@ -26,10 +26,9 @@
 ### 寫一些東西後,按(Ctrl+Shift+F10)就可以執行了<br>
 ### 或是按上面的綠色小箭頭<br>
 <br>
-<br>
 ### 想要跟我用一樣的顏色的人<br>
 ![Imgur](https://i.imgur.com/GRKEj98.png)<br>
-### 先去下載[這個檔](https://drive.google.com/open?id=1fhidZwc6zgUNimsnccDJJ209u0FVfPQa)<br>
+先去下載[這個檔](https://drive.google.com/open?id=1fhidZwc6zgUNimsnccDJJ209u0FVfPQa)<br>
 ### 然後按(Ctrl+Alt+S)<br>
 ### 然後找到<br>
 ![Imgur](https://i.imgur.com/BA4EPPX.png)<br>
