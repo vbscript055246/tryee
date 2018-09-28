@@ -2,7 +2,8 @@
 ##### 想要我的code嗎？想要的話可以全部給你，去找吧！我把code都放在這裡了~
 ##### (有問題就私下密吧~)
 #### 想執行程式碼卻沒有環境可以用[ideone](https://ideone.com/ideone/Index/submit/)直接線上編譯喔~
-#### 寫Python的IDE,我推[Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)[教學]()
+#### 寫Python的IDE,我推[Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
+#### [pycharm教學](https://github.com/vbscript055246/tryee/blob/master/teach_for_pycharm.md)
 ### 補充
  - pointer
 一句話: 儲存變數記憶體位址的變數
