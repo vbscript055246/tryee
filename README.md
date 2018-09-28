@@ -1,6 +1,8 @@
 # tryee
-##### For datastructure homework~
-#### 想執行程式碼卻沒有環境可以用 https://ideone.com/ideone/Index/submit/ 直接線上編譯喔~
+##### 想要我的code嗎？想要的話可以全部給你，去找吧！我把code都放在這裡了~
+##### (有問題就私下密吧~)
+#### 想執行程式碼卻沒有環境可以用[ideone](https://ideone.com/ideone/Index/submit/)直接線上編譯喔~
+#### 寫Python的IDE,我推[Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)[教學]()
 ### 補充
  - pointer
 一句話: 儲存變數記憶體位址的變數
@@ -26,7 +28,7 @@
 > 原因是swap(int a,int b)這樣的函式 屬於所謂"call by value"
 > 簡單來說就是只把便參數的值傳進函式
 > 所以在函式在執行時,被操作的變數跟原來的不一樣,只是原先的複製體
-> 如果使用swap(int *a,int *b):   [int *是儲存指標的變數型態]
+> 如果使用swap(int *a,int *b):   \[int *是儲存指標的變數型態\]
 
 ``` C
     viod swap(int *a,int *b){
