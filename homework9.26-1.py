@@ -15,16 +15,16 @@ print(F(998))
 
 
 def f(n):
-    if n == 0 or n == 1:
+    if n < 2:
         return n
     a1 = 0
     a2 = 1
-    temp = -1
     for i in range(n-1):
-        temp = a1 + a2
-        a1 = a2
-        a2 = temp
-    return temp
+        a1 += a2
+        a1 ^= a2
+        a2 ^= a1
+        a1 ^= a2
+    return a2
 
 
 print(f(100000))
