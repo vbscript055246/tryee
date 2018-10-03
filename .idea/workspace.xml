@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homework10.3-3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-bonus-02-02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-bonus-02-03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework10.3-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework10.3-3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,19 +84,20 @@
     <session id="1294211128">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="5" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -102,7 +105,7 @@
           <entry key="cpp" value="396" />
           <entry key="dummy" value="53" />
           <entry key="md" value="612" />
-          <entry key="py" value="4278" />
+          <entry key="py" value="5410" />
           <entry key="txt" value="137" />
         </counts>
       </usages-collector>
@@ -111,14 +114,14 @@
           <entry key="C++" value="396" />
           <entry key="Markdown" value="165" />
           <entry key="PLAIN_TEXT" value="637" />
-          <entry key="Python" value="4278" />
+          <entry key="Python" value="5410" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="2" />
           <entry key="md" value="5" />
-          <entry key="py" value="50" />
+          <entry key="py" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -126,21 +129,44 @@
           <entry key="C++" value="2" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="50" />
+          <entry key="Python" value="55" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework10.3-3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="720">
+              <caret line="48" column="40" selection-end-line="51" />
               <folding>
-                <marker date="1538554592778" expanded="true" signature="11:17" ph="..." />
-                <marker date="1538554592778" expanded="true" signature="114:115" ph="..." />
+                <marker date="1538575354621" expanded="true" signature="45:51" ph="..." />
+                <marker date="1538575354621" expanded="true" signature="148:149" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework-bonus-02-02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1230">
+              <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homework-bonus-02-03.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <marker date="1538581529915" expanded="true" signature="92:93" ph="..." />
+                <marker date="1538581529915" expanded="true" signature="92:97" ph="..." />
+                <marker date="1538581529915" expanded="true" signature="124:126" ph="..." />
               </folding>
             </state>
           </provider>
@@ -191,14 +217,16 @@
         <option value="$PROJECT_DIR$/HW_on_class10.3-1.py" />
         <option value="$PROJECT_DIR$/homework10.3-2.py" />
         <option value="$PROJECT_DIR$/homework10.3-3.py" />
+        <option value="$PROJECT_DIR$/homework-bonus-02-02.py" />
+        <option value="$PROJECT_DIR$/homework-bonus-02-03.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="218" />
+    <option name="x" value="217" />
     <option name="y" value="-14" />
-    <option name="width" value="1442" />
-    <option name="height" value="721" />
+    <option name="width" value="1446" />
+    <option name="height" value="725" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -208,6 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,7 +248,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,7 +266,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.homework10.3-3">
+  <component name="RunManager" selected="Python.homework-bonus-02-03">
     <configuration name="HW_on_class10.3-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Treeeeeeyeeee~" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,7 +288,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework10.3-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="homework-bonus-02-02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Treeeeeeyeeee~" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,7 +300,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework10.3-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework-bonus-02-02.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="homework-bonus-02-03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Treeeeeeyeeee~" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework-bonus-02-03.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,27 +343,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework10.3-2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="homework10.3-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Treeeeeeyeeee~" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Py\tryee\HW_on_class10.3-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,19 +373,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.homework10.3-1" />
-      <item itemvalue="Python.homework10.3-2" />
       <item itemvalue="Python.HW_on_class10.3-1" />
       <item itemvalue="Python.homework10.3-2 (1)" />
       <item itemvalue="Python.homework10.3-3" />
+      <item itemvalue="Python.homework-bonus-02-02" />
+      <item itemvalue="Python.homework-bonus-02-03" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homework-bonus-02-03" />
+        <item itemvalue="Python.homework-bonus-02-02" />
         <item itemvalue="Python.homework10.3-3" />
         <item itemvalue="Python.homework10.3-2 (1)" />
         <item itemvalue="Python.HW_on_class10.3-1" />
-        <item itemvalue="Python.homework10.3-2" />
-        <item itemvalue="Python.homework10.3-1" />
       </list>
     </recent_temporary>
   </component>
@@ -568,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538550343818</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="update~">
+      <created>1538554618912</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1538554618912</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TodoView">
@@ -589,7 +624,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62056077" visible="true" weight="0.3825" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62056077" weight="0.42" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" weight="0.3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -764,31 +799,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-158">
           <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
-          <folding>
-            <marker date="1538550298910" expanded="true" signature="889:890" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HW_on_class10.3-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <marker date="1538549336045" expanded="true" signature="56:207" ph="..." />
-            <marker date="1538549336045" expanded="true" signature="919:924" ph="..." />
-            <marker date="1538549336045" expanded="true" signature="933:938" ph="..." />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework10.3-3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="720">
+          <caret line="48" column="40" selection-end-line="51" />
           <folding>
-            <marker date="1538554592778" expanded="true" signature="11:17" ph="..." />
-            <marker date="1538554592778" expanded="true" signature="114:115" ph="..." />
+            <marker date="1538575354621" expanded="true" signature="45:51" ph="..." />
+            <marker date="1538575354621" expanded="true" signature="148:149" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework-bonus-02-02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="82" column="19" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework-bonus-02-03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <marker date="1538581529915" expanded="true" signature="92:93" ph="..." />
+            <marker date="1538581529915" expanded="true" signature="92:97" ph="..." />
+            <marker date="1538581529915" expanded="true" signature="124:126" ph="..." />
           </folding>
         </state>
       </provider>
