@@ -7,8 +7,8 @@ class SparseMatrixItem:
         self.col = c
         self.row = r
 
-    def __str__(self):
-        return str(self.value)
+    def __int__(self):
+        return self.value
 
 class SparseMatrix:
 
@@ -17,7 +17,7 @@ class SparseMatrix:
         self.Item = Item
         self.Item.sort(key=attrgetter('col'))  # , reverse=True
         for index, i in enumerate(self.Item):
-            print("index:" + str(index) + ", " + str(i))
+            print("index:" + str(index) + ", " + "{:2d}".format(int(i)))
 
     def get_value(self, c, r):
         for item in self.Item:
@@ -29,7 +29,7 @@ class SparseMatrix:
         temp = ""
         for i in range(self.length):
             for j in range(self.length):
-                temp += (str(self.get_value(i, j)) + " ")
+                temp += "{:2d} ".format(self.get_value(i, j))
             temp += "\n"
         return temp
 
