@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/111_Bonus_10.3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/111_homework_10.3.py" beforeDir="false" afterPath="$PROJECT_DIR$/111_homework_10.3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +82,7 @@
     <session id="1294211128">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="5" />
@@ -94,16 +94,17 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="396" />
-          <entry key="dummy" value="53" />
+          <entry key="dummy" value="61" />
           <entry key="md" value="612" />
-          <entry key="py" value="5789" />
+          <entry key="py" value="5922" />
           <entry key="txt" value="143" />
         </counts>
       </usages-collector>
@@ -111,8 +112,8 @@
         <counts>
           <entry key="C++" value="396" />
           <entry key="Markdown" value="165" />
-          <entry key="PLAIN_TEXT" value="643" />
-          <entry key="Python" value="5789" />
+          <entry key="PLAIN_TEXT" value="651" />
+          <entry key="Python" value="5922" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -133,12 +134,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/111_Bonus_10.3.py">
+        <entry file="file://$PROJECT_DIR$/111_homework_10.3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -191,14 +192,15 @@
         <option value="$PROJECT_DIR$/homework-bonus-02-02.py" />
         <option value="$PROJECT_DIR$/homework-bonus-02-03.py" />
         <option value="$PROJECT_DIR$/111_Bonus_10.3.py" />
+        <option value="$PROJECT_DIR$/111_homework_10.3.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="217" />
     <option name="y" value="-14" />
-    <option name="width" value="1448" />
-    <option name="height" value="727" />
+    <option name="width" value="1449" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -208,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,6 +221,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,7 +584,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538581547451</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="HW update~">
+      <created>1538648216609</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1538648216610</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -603,13 +612,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62056077" visible="true" weight="0.13" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62056077" weight="0.13" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" weight="0.3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49906543" weight="0.3272727" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49813083" weight="0.46" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49698794" weight="0.23818181" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49698794" visible="true" weight="0.2375" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.37943926" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49906543" weight="0.3272727" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -807,17 +816,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="48" column="40" selection-end-line="51" />
-          <folding>
-            <marker date="1538575354621" expanded="true" signature="45:51" ph="..." />
-            <marker date="1538575354621" expanded="true" signature="148:149" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/111_Bonus_10.3.py">
+    <entry file="file://$PROJECT_DIR$/111_homework_10.3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
