@@ -1,10 +1,1 @@
-string = "abcabacdea"
-pat = "f"
-
-
-def find(pattern):
-    if pattern == "":
-        return -1
-    return string.find(pattern)
-
-print(find(pat))
+string = "abcabacdea";pat = "f";find = lambda string, pattern: -1 if pattern == "" else string.find(pattern);print(find(string, pat))
