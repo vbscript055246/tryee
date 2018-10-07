@@ -1,6 +1,9 @@
-def f(x):
+def collatz(x):
+    if x <= 0: print("no");return
     while x != 1:x = (3 * x + 1) if (x & 1) else x // 2;print(x)
-f(int(input("請輸入:\n")))
+
+
+collatz(int(input("請輸入:\n")))
 
 
 # ======想覺得有趣的話看看你家電腦可以算到多少XD~
