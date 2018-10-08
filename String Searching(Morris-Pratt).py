@@ -29,6 +29,7 @@ def Morris_Pratt(string, pattern):
 
         if i == len(pattern)-1:   # 找到囉, 指針已經推到檢查的最後一個字元
             print(j - i)
+            return
             i = failure[i]  # 找下一個字串出現的地方加這行
             #                 因為超過字串長了所以檢查指針會被回推
             #                 但也許是重複出現的形式, string: abcabcabc, search: abc
