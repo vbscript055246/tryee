@@ -36,8 +36,11 @@ def Morris_Pratt(string, pattern):
             #                 所以還是要回推, 不然會找不到"重疊"的(因為字數會不夠)
 
 
-get_prefix(pattern)
-Morris_Pratt(string, pattern)
+if pattern != "":
+    get_prefix(pattern)
+    Morris_Pratt(string, pattern)
+else:
+    print(-1)
 
 
 

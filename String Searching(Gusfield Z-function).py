@@ -21,6 +21,9 @@ def get_Z(string):
     Z = z
 
 
-get_Z(pattern + "_" + string)
-print(Z)
-print(Z.index(len(pattern)))
+if pattern != "":
+    get_Z(pattern + "_" + string)
+    print(Z)
+    print(Z.index(len(pattern)))
+else:
+    print(-1)
