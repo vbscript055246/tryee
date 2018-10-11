@@ -38,14 +38,14 @@ print()
 # 5
 marker = [0] * 5
 array = [0] * 3
-def dsf(ptr):
+def dfs(ptr):
     global marker, array
     if ptr < 3:
         for i in range(5):
             if marker[i] == 0:
                 array[ptr] = i+1
                 marker[i] = 1
-                dsf(ptr+1)
+                dfs(ptr+1)
                 marker[i] = 0
     else:
         for i in array:
@@ -53,7 +53,7 @@ def dsf(ptr):
         print()
 
 
-dsf(0)
+dfs(0)
 
 
 # 6
