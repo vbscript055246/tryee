@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment=" update~">
+    <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/神奇小文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/神奇小文件.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/111-quiz1_10.11.py" beforeDir="false" afterPath="$PROJECT_DIR$/111-quiz1_10.11.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,18 +106,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="396" />
-          <entry key="dummy" value="61" />
+          <entry key="dummy" value="80" />
           <entry key="md" value="612" />
-          <entry key="py" value="14616" />
-          <entry key="txt" value="171" />
+          <entry key="py" value="14680" />
+          <entry key="txt" value="175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C++" value="396" />
           <entry key="Markdown" value="165" />
-          <entry key="PLAIN_TEXT" value="679" />
-          <entry key="Python" value="14616" />
+          <entry key="PLAIN_TEXT" value="702" />
+          <entry key="Python" value="14680" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -149,10 +149,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/神奇小文件.py">
+        <entry file="file://$PROJECT_DIR$/111-quiz1_10.11.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+            <state relative-caret-position="182">
+              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -211,6 +211,7 @@
         <option value="$PROJECT_DIR$/homework-bonus-02-02.py" />
         <option value="$PROJECT_DIR$/bonus_temp.py" />
         <option value="$PROJECT_DIR$/神奇小文件.py" />
+        <option value="$PROJECT_DIR$/111-quiz1_10.11.py" />
       </list>
     </option>
   </component>
@@ -386,7 +387,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/神奇小文件.py" />
+      <option name="SCRIPT_NAME" value="D:\Py\tryee\111-quiz1_10.11.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -780,7 +781,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539022440157</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary=" update~">
+      <created>1539262409330</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1539262409330</updated>
+    </task>
+    <task id="LOCAL-00041" summary="quiz update~">
+      <created>1539262469663</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1539262469663</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -801,7 +816,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62056077" visible="true" weight="0.3875" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62056077" visible="true" weight="0.27" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" weight="0.37272727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -853,7 +868,9 @@
     <MESSAGE value="HW update~" />
     <MESSAGE value="Comment update~" />
     <MESSAGE value="String Search update~" />
-    <option name="LAST_COMMIT_MESSAGE" value="String Search update~" />
+    <MESSAGE value=" update~" />
+    <MESSAGE value="quiz update~" />
+    <option name="LAST_COMMIT_MESSAGE" value="quiz update~" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1206,10 +1223,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/神奇小文件.py">
+    <entry file="file://$PROJECT_DIR$/111-quiz1_10.11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="182">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
         </state>
       </provider>
     </entry>

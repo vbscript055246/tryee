@@ -36,12 +36,14 @@ for i in range(100, 1000):
 
 
 # 5
+counter = 0
 for i in range(1, 5):
     for j in range(1, 5):
         for k in range(1, 5):
             if i != j != k != i:
+                counter += 1
                 print(i * 100 + j * 10 + k)
-
+print("共" + str(counter) + "個")
 # 6
 start = 1
 for i in range(10):
