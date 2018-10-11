@@ -33,12 +33,13 @@ for i in range(100, 1000):
     if sum == i:
         print(i)
 
+print()
 # 5
 marker = [0] * 5
-array = [0] * 5
+array = [0] * 3
 def dsf(ptr):
     global marker, array
-    if ptr < 5:
+    if ptr < 3:
         for i in range(5):
             if marker[i] == 0:
                 array[ptr] = i+1
@@ -46,7 +47,10 @@ def dsf(ptr):
                 dsf(ptr+1)
                 marker[i] = 0
     else:
-        print(array)
+        for i in array:
+            print(i, end="")
+        print()
+
 
 dsf(0)
 
