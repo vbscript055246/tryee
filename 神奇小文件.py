@@ -18,8 +18,9 @@ for i in range(1, 10):
 meter = 100
 sum = 0
 for i in range(10):
-    meter = meter / 2
     sum += meter
+    meter = meter / 2
+
 print("共經過:" + str(sum) + "公尺")
 print("高度:" + str(meter) + "公尺")
 
@@ -63,26 +64,24 @@ for i in range(10):
 print(start)
 
 # 7
-def output(a, b, c):
+def output(a, b):
     for i in range(a):
         print(" ", end="")
     for i in range(b):
         print("*", end="")
-    for i in range(c):
-        print(" ", end="")
     print()
 
 
-for i in range(4):
-    output((7 - i * 2 + 1) // 2, i * 2 + 1, (7 - i * 2 + 1) // 2)
-
 for i in range(3):
-    output((7 -(7 - (i + 1) * 2)) // 2 + 1, 7 - (i + 1) * 2, (7 -(7 - (i + 1) * 2)) // 2 + 1)
+    output(3 - i, i * 2 + 1)
+output(0, 7)
+for i in range(2, -1, -1):
+    output(3 - i, i * 2 + 1)
 
 
 # 8
 F = [1, 1]
-while len(F) <= 25:
+while len(F) <= 22:
     F.append(F[-1]+F[-2])
 
 ans = 0
@@ -107,6 +106,7 @@ def linear_sieve():
                 break
 
 linear_sieve()
+
 print("{}, 共{}個".format(prime, len(prime)))
 
 
