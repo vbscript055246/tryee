@@ -102,7 +102,7 @@ def linear_sieve():
             if i*j >= 100:
                 break
             sieve[i*j] = 1
-            if i % j == 0:
+            if i == j:
                 break
 
 linear_sieve()
