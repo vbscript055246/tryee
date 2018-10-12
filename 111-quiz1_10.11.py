@@ -37,9 +37,9 @@ for i in range(100, 1000):
 
 # 5
 counter = 0
-for i in range(1, 5):
-    for j in range(1, 5):
-        for k in range(1, 5):
+for i in range(1, 6):
+    for j in range(1, 6):
+        for k in range(1, 6):
             if i != j != k != i:
                 counter += 1
                 print(i * 100 + j * 10 + k)
@@ -60,8 +60,8 @@ for i in range(2, -1, -1):
 
 
 # 8
-a = 2
-b = 3
+a = 1
+b = 2
 ans = 0
 for i in range(20):
     ans += b / a
