@@ -1,4 +1,4 @@
-from operator import attrgetter
+import copy
 
 
 class Term:
@@ -17,18 +17,19 @@ class Term:
 class Ploynomial:
 
     def __init__(self, item):
-        self.item = item
+        self.item = copy.deepcopy(item)
 
     def __add__(self, other):
+        ans = copy.deepcopy(self)
         for i in other.item:
-            tmp = self.get(i.e)
+            tmp = ans.get(i.e)
             if tmp is None:
-                self.item.append(i)
+                ans.item.append(i)
             else:
                 tmp.c += i.c
 
-        self.item.sort(key=attrgetter('e'), reverse=True)
-        return Ploynomial(self.item)
+        ans.item.sort(key=lambda x:x.e, reverse=True)
+        return ans
 
     def __mul__(self, other):
         ans = Ploynomial([])
@@ -63,7 +64,7 @@ class Ploynomial:
             tmp.c += newTerm.c
         else:
             self.item.append(newTerm)
-            self.item.sort(key=attrgetter('e'), reverse=True)
+            self.item.sort(key=lambda x:x.e, reverse=True)
 
     def removeATerm(self, Term):
         for index, item in enumerate(self.item):
@@ -77,7 +78,8 @@ class Ploynomial:
 a = Ploynomial([Term(8, 8), Term(8, 1)])
 b = Ploynomial([Term(8, 8), Term(8, 2)])
 c = Ploynomial([Term(8, 5), Term(8, 3)])
-print(a*b+c)
+print(b+c)
+print(b)
 T = a*b+c
 T.removeATerm(Term(64, 2))
 T.printPolynomial()

@@ -1,51 +1,37 @@
-from operator import attrgetter
-
-
-class Term:
-
-    def __init__(self, ncoef, nexp):
-        self.c = ncoef
-        self.e = nexp
-
-
 class Ploynomial:
 
     def __init__(self, item):
-        self.item = item
+        self.Term = item.copy()
 
     def __add__(self, other):
-        for i in other.item:
-            tmp = self.get(i.e)
-            if tmp is None:
-                self.item.append(i)
+        ans = Ploynomial(self.Term)
+        for (e, c) in other.Term.items():
+            if ans.Term.get(e) is not None:
+                ans.Term[e] += c
             else:
-                tmp.c += i.c
-
-        self.item.sort(key=attrgetter('e'), reverse=True)
-        return Ploynomial(self.item)
+                ans.Term[e] = c
+        ans.flush()
+        return ans
 
     def __str__(self):
         temp = ""
-        for item in self.item:
-            if item.e == 1:
-                temp += (str(item.c) + "x+")
-            elif item.e:
-                temp += (str(item.c) + "x^" + str(item.e) + "+")
+        for e in sorted(self.Term.keys(), reverse=True):
+            if e == 1:
+                temp += (str(self.Term[e]) + "x+")
+            elif e:
+                temp += (str(self.Term[e]) + "x^" + str(e) + "+")
             else:
-                temp += str(item.c)
+                temp += str(self.Term[e])
         temp = temp.rstrip("+")
         return temp
 
-    def get(self, e):
-        for item in self.item:
-            if item.e == e:
-                return item
-            if item.e < e:
-                return None
-        return None
+    def flush(self):
+        for e in self.Term.copy():
+            if self.Term[e] == 0:
+                self.Term.pop(e)
 
-
-a = Ploynomial([Term(8, 8), Term(8, 1)])
-b = Ploynomial([Term(8, 8), Term(8, 2)])
-c = Ploynomial([Term(8, 5), Term(8, 3)])
+a = Ploynomial({8: 8, 1: 8})
+b = Ploynomial({8: -8, 2: 8})
+c = Ploynomial({5: 8, 3: 8})
 print(a+b+c)
+print(a)
