@@ -30,6 +30,7 @@ class Ploynomial:
             if self.Term[e] == 0:
                 self.Term.pop(e)
 
+
 a = Ploynomial({8: 8, 1: 8})
 b = Ploynomial({8: -8, 2: 8})
 c = Ploynomial({5: 8, 3: 8})

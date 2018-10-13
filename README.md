@@ -4,6 +4,7 @@
 #### 想執行程式碼卻沒有環境可以用[ideone](https://ideone.com/ideone/Index/submit/)直接線上編譯喔~
 #### 寫Python的IDE,我推[Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
 #### [pycharm教學](https://github.com/vbscript055246/tryee/blob/master/teach_for_pycharm.md)
+#### [Power Mode酷炫打字](https://www.youtube.com/watch?v=p2p-fLVqs3M&utm_source=Facebook_PicSee)
 
 
 ![Imgur](https://i.imgur.com/qNacPip.png)
