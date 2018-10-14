@@ -16,7 +16,7 @@ for i in range(1, 10):
 
 # 3
 meter = 100
-sum = 0
+sum = 100
 for i in range(10):
     sum += meter
     meter = meter / 2
