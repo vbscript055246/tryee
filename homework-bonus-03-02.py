@@ -39,8 +39,8 @@ ways = [point(0, -1),
         point(-1, 1),
         point(1, 1)]
 
-steps = [point(1, 1, 2)]
-map[1][1] = 'st'
+steps = [point(0, 0, 2)]
+map[0][0] = 'st'
 
 
 # 廣度優先搜尋
