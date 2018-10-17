@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homework-bonus-03-02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-bonus-03-02.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework-bonus-03-02.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +82,7 @@
     <session id="1294211128">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="38" />
+          <entry key="project.closed" value="39" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="6" />
@@ -93,14 +93,14 @@
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="41" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -108,7 +108,7 @@
           <entry key="cpp" value="396" />
           <entry key="dummy" value="80" />
           <entry key="md" value="612" />
-          <entry key="py" value="17872" />
+          <entry key="py" value="17949" />
           <entry key="txt" value="200" />
         </counts>
       </usages-collector>
@@ -117,14 +117,14 @@
           <entry key="C++" value="396" />
           <entry key="Markdown" value="165" />
           <entry key="PLAIN_TEXT" value="727" />
-          <entry key="Python" value="17872" />
+          <entry key="Python" value="17949" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="2" />
           <entry key="md" value="6" />
-          <entry key="py" value="94" />
+          <entry key="py" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -132,18 +132,18 @@
           <entry key="C++" value="2" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="94" />
+          <entry key="Python" value="96" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework-bonus-03-02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+            <state relative-caret-position="135">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -395,13 +395,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536738387529</updated>
-    </task>
-    <task id="LOCAL-00002" summary="better~">
-      <created>1537460255221</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1537460255221</updated>
     </task>
     <task id="LOCAL-00003" summary="better~">
       <created>1537460683717</created>
@@ -739,7 +732,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539763733397</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="homework update~">
+      <created>1539794563202</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1539794563202</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView">
@@ -760,7 +760,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6184739" visible="true" weight="0.3109091" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6184739" visible="true" weight="0.3490909" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" weight="0.4425" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -983,13 +983,6 @@
     <entry file="file://$PROJECT_DIR$/t.py" />
     <entry file="file://$PROJECT_DIR$/Source.cpp" />
     <entry file="file://$PROJECT_DIR$/card.py" />
-    <entry file="file://$PROJECT_DIR$/demo_stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -1180,17 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="8" column="21" lean-forward="true" selection-end-line="47" />
-          <folding>
-            <marker date="1539757913157" expanded="true" signature="15:20" ph="..." />
-            <marker date="1539757913157" expanded="true" signature="42:200" ph="..." />
-            <marker date="1539757913157" expanded="true" signature="218:252" ph="..." />
-            <marker date="1539757913157" expanded="true" signature="334:343" ph="..." />
-            <marker date="1539757913157" expanded="true" signature="334:447" ph="..." />
-            <marker date="1539757913157" expanded="true" signature="469:479" ph="..." />
-            <marker date="1539757913157" expanded="true" signature="469:609" ph="..." />
-            <marker date="1539757913157" expanded="true" signature="628:629" ph="..." />
-            <marker date="1539757913157" expanded="true" signature="628:637" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1198,10 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="19" selection-end-line="14" selection-end-column="35" />
-          <folding>
-            <marker date="1539763109675" expanded="true" signature="21:22" ph="..." />
-            <marker date="1539763109675" expanded="true" signature="21:311" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1212,10 +1190,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/homework-bonus-03-02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="63" column="67" selection-start-line="63" selection-start-column="67" selection-end-line="63" selection-end-column="67" />
+        <state relative-caret-position="135">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
         </state>
       </provider>
     </entry>
