@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/homework10.17-1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework10.17-2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework10.17-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework10.17-1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,23 +109,23 @@
           <entry key="cpp" value="396" />
           <entry key="dummy" value="80" />
           <entry key="md" value="612" />
-          <entry key="py" value="16744" />
-          <entry key="txt" value="192" />
+          <entry key="py" value="17122" />
+          <entry key="txt" value="200" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C++" value="396" />
           <entry key="Markdown" value="165" />
-          <entry key="PLAIN_TEXT" value="719" />
-          <entry key="Python" value="16744" />
+          <entry key="PLAIN_TEXT" value="727" />
+          <entry key="Python" value="17122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cpp" value="2" />
           <entry key="md" value="6" />
-          <entry key="py" value="90" />
+          <entry key="py" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -132,18 +133,31 @@
           <entry key="C++" value="2" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="90" />
+          <entry key="Python" value="91" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework10.17-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+            <state relative-caret-position="-276">
+              <caret selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homework10.17-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6">
+              <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <marker date="1539763109675" expanded="true" signature="21:22" ph="..." />
+                <marker date="1539763109675" expanded="true" signature="21:311" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,12 +222,13 @@
         <option value="$PROJECT_DIR$/111-quiz1_10.11.py" />
         <option value="$PROJECT_DIR$/HW_on_class10.17.py" />
         <option value="$PROJECT_DIR$/homework10.17-1.py" />
+        <option value="$PROJECT_DIR$/homework10.17-2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-25" />
-    <option name="y" value="-44" />
+    <option name="x" value="42" />
+    <option name="y" value="-11" />
     <option name="width" value="1946" />
     <option name="height" value="1036" />
   </component>
@@ -260,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.homework10.17-1">
+  <component name="RunManager" selected="Python.homework10.17-2">
     <configuration name="111-quiz1_10.11" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Treeeeeeyeeee~" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -345,7 +360,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="homework10.3-3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="homework10.17-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Treeeeeeyeeee~" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,7 +372,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework10.3-3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework10.17-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -369,17 +384,17 @@
     <list>
       <item itemvalue="Python.homework-bonus-02-02" />
       <item itemvalue="Python.111-quiz1_10.11" />
-      <item itemvalue="Python.homework10.3-3" />
       <item itemvalue="Python.HW_on_class10.17" />
       <item itemvalue="Python.homework10.17-1" />
+      <item itemvalue="Python.homework10.17-2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homework10.17-2" />
         <item itemvalue="Python.homework10.17-1" />
         <item itemvalue="Python.HW_on_class10.17" />
         <item itemvalue="Python.111-quiz1_10.11" />
         <item itemvalue="Python.homework-bonus-02-02" />
-        <item itemvalue="Python.homework10.3-3" />
       </list>
     </recent_temporary>
   </component>
@@ -730,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539758141826</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="homework update~">
+      <created>1539761694819</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1539761694819</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TodoView">
@@ -746,12 +768,12 @@
     <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.21495327" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.1906542" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.13473053" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62056077" visible="true" weight="0.3575" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.62056077" visible="true" weight="0.3775" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" weight="0.4425" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -806,7 +828,8 @@
     <MESSAGE value="update~" />
     <MESSAGE value="quiz update~" />
     <MESSAGE value="HW update~" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW update~" />
+    <MESSAGE value="homework update~" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework update~" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -890,86 +913,6 @@
           <url>file://$PROJECT_DIR$/String Searching(Gusfield Z-function).py</url>
           <line>11</line>
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>14</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.17-1.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1266,8 +1209,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework10.17-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="57" lean-forward="true" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        <state relative-caret-position="-276">
+          <caret selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework10.17-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1539763109675" expanded="true" signature="21:22" ph="..." />
+            <marker date="1539763109675" expanded="true" signature="21:311" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
