@@ -50,7 +50,7 @@ def bfs(map, end):
         poi = steps[-1]
         if poi == end:
             map[poi.y][poi.x] = 'sp'
-            print("found end!!!")
+            print("走到終點!!!")
             for col in map:
                 for row in col:
                     if str(row).isdigit():
@@ -74,7 +74,7 @@ def bfs(map, end):
 
         steps.pop()
 
-    print("can't found!!!")
+    print("走不到終點!!!")
     exit(0)
 
 

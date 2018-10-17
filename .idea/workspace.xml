@@ -108,7 +108,7 @@
           <entry key="cpp" value="396" />
           <entry key="dummy" value="80" />
           <entry key="md" value="612" />
-          <entry key="py" value="17949" />
+          <entry key="py" value="17987" />
           <entry key="txt" value="200" />
         </counts>
       </usages-collector>
@@ -117,7 +117,7 @@
           <entry key="C++" value="396" />
           <entry key="Markdown" value="165" />
           <entry key="PLAIN_TEXT" value="727" />
-          <entry key="Python" value="17949" />
+          <entry key="Python" value="17987" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -142,8 +142,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework-bonus-03-02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            <state relative-caret-position="160">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -395,20 +395,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536738387529</updated>
-    </task>
-    <task id="LOCAL-00003" summary="better~">
-      <created>1537460683717</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1537460683717</updated>
-    </task>
-    <task id="LOCAL-00004" summary="new stack and queue demo">
-      <created>1537706543831</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1537706543831</updated>
     </task>
     <task id="LOCAL-00005" summary="new stack and queue demo">
       <created>1537706882308</created>
@@ -739,7 +725,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539794563202</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="homework update~">
+      <created>1539795296393</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1539795296394</updated>
+    </task>
+    <task id="LOCAL-00053" summary="homework update~">
+      <created>1539795522887</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1539795522888</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1199,8 +1199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework-bonus-03-02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="160">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
         </state>
       </provider>
     </entry>
