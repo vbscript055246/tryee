@@ -11,13 +11,13 @@ class ringlinklist:
 
     def __init__(self):
         self.head = None
-        self.tail = None
 
     def displayAllNode(self):
         temp = self.head
-        while temp.next is self.head:
-            print(temp.num)
+        print(temp.num)
+        while temp.next is not self.head:
             temp = temp.next
+            print(temp.num)
 
     def isEmpty(self):
         return self.head is None
@@ -28,17 +28,17 @@ class ringlinklist:
             self.head.next = self.head
         else:
             temp = self.head
-            while temp.next is not None:
+            while temp.next is not self.head:
                 temp = temp.next
             temp.next = Node(newnode.num)
-            temp.next = self.head
+            temp.next.next = self.head
 
     def removeLastNode(self):
         if self.isEmpty():
             raise ValueError("空的...")
         temp = self.head
         parent = None
-        while temp.next is self.head:
+        while temp.next is not self.head:
             parent = temp
             temp = temp.next
         if parent is None:
@@ -53,25 +53,48 @@ class ringlinklist:
             self.head = B.head
         elif not B.isEmpty():
             temp = self.head
-            while temp.next is self.head:
+            while temp.next is not self.head:
                 temp = temp.next
             temp.next = B.head
 
             temp = B.head
-            while temp.next is B.head:
+            while temp.next is not B.head:
                 temp = temp.next
             temp.next = self.head
 
     def inverse(self):
-        temp = self.head
+        ptr = self.head
         parent = None
-        next = temp.next
-        while temp.next is self.head:
-            temp.next, parent, temp, next = parent, temp, next, next.next
+        next = ptr.next
+        while ptr.next is not self.head:
+            ptr.next, parent, ptr, next = parent, ptr, next, next.next
+        self.head.next = ptr
 
     def length(self):
-        counter = 0
+        counter = 1
         temp = self.head
         while temp.next is self.head:
             counter += 1
             temp = temp.next
+        return counter
+
+
+RLL = ringlinklist()
+RLL1 = ringlinklist()
+
+RLL.insertAtFristNode(Node(10))
+RLL.insertAtFristNode(Node(11))
+try:
+    RLL.removeLastNode()
+    RLL.removeLastNode()
+    RLL.removeLastNode()
+    #RLL1.insertAtFristNode(Node(12))
+    #RLL.concatenate(RLL1)
+    RLL.displayAllNode()
+except:
+    pass
+RLL.insertAtFristNode(Node(10))
+RLL.insertAtFristNode(Node(11))
+
+RLL.inverse()
+RLL.displayAllNode()

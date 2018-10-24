@@ -14,9 +14,10 @@ class ringlinklist:
 
     def displayAllNode(self):
         temp = self.head
-        while temp.next is not None:
+        while temp is not None:
             print(temp.num)
             temp = temp.next
+
 
     def isEmpty(self):
         return self.head is None
@@ -54,13 +55,31 @@ class ringlinklist:
     def inverse(self):
         temp = self.head
         parent = None
-        next = temp.next
+        next = self.head.next
         while temp.next is not None:
-            temp.next, parent, temp, next= parent, temp, next, next.next
+            temp.next, parent, temp, next = parent, temp, next, next.next
+        self.head = temp
+        self.head.next = parent
 
     def length(self):
-        counter = 0
+        if self.head is None:
+            raise ValueError("空的~~~")
+        counter = 1
         temp = self.head
         while temp.next is not None:
             counter += 1
             temp = temp.next
+        return counter
+
+
+RLL = ringlinklist()
+RLL1 = ringlinklist()
+RLL.insertAtFristNode(Node(10))
+RLL.insertAtFristNode(Node(11))
+#RLL.displayAllNode()
+#RLL.removeLastNode()
+#RLL1.insertAtFristNode(Node(12))
+#RLL.concatenate(RLL1)
+#RLL.displayAllNode()
+RLL.inverse()
+RLL.displayAllNode()
