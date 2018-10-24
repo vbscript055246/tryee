@@ -1,10 +1,10 @@
 class ringqueue:
 
     def __init__(self, c):
-        self.queue = [0]*c
+        self.queue = [0]*(c+1)
         self.front = 0
         self.rear = 0
-        self.capacity = c
+        self.capacity = c+1
 
     def isEmpty(self):
         return self.front == self.rear
@@ -30,12 +30,12 @@ class ringqueue:
             raise ValueError("目前Queue是空的!")
         else:
             ans = self.get_front()
-            self.queue[self.front] = 0
+            self.queue[(self.front+1) % self.capacity] = 0
             self.front = (self.front+1) % self.capacity
             return ans
 
 
-que = ringqueue(5)
+que = ringqueue(3)
 while 1:
     c = input('輸入指令')
     try:

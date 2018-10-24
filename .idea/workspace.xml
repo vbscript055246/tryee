@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="homework update~">
-      <change afterPath="$PROJECT_DIR$/homework10.24-1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/quiz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework10.24-1.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework10.24-1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +109,7 @@
           <entry key="cpp" value="396" />
           <entry key="dummy" value="82" />
           <entry key="md" value="612" />
-          <entry key="py" value="20799" />
+          <entry key="py" value="20813" />
           <entry key="txt" value="200" />
         </counts>
       </usages-collector>
@@ -118,7 +118,7 @@
           <entry key="C++" value="396" />
           <entry key="Markdown" value="165" />
           <entry key="PLAIN_TEXT" value="729" />
-          <entry key="Python" value="20799" />
+          <entry key="Python" value="20813" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -143,15 +143,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homework10.24-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="120">
+              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
               <folding>
-                <marker date="1540363888732" expanded="true" signature="16:17" ph="..." />
-                <marker date="1540363888732" expanded="true" signature="16:22" ph="..." />
-                <marker date="1540363888732" expanded="true" signature="166:211" ph="..." />
-                <marker date="1540363888732" expanded="true" signature="228:297" ph="..." />
-                <marker date="1540363888732" expanded="true" signature="317:381" ph="..." />
-                <marker date="1540363888732" expanded="true" signature="463:649" ph="..." />
+                <marker date="1540364406003" expanded="true" signature="16:17" ph="..." />
+                <marker date="1540364406003" expanded="true" signature="16:22" ph="..." />
+                <marker date="1540364406003" expanded="true" signature="172:217" ph="..." />
+                <marker date="1540364406003" expanded="true" signature="234:303" ph="..." />
+                <marker date="1540364406003" expanded="true" signature="323:387" ph="..." />
+                <marker date="1540364406003" expanded="true" signature="469:655" ph="..." />
               </folding>
             </state>
           </provider>
@@ -408,13 +408,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1536738387529</updated>
-    </task>
-    <task id="LOCAL-00007" summary="file name update~">
-      <created>1537712784128</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1537712784128</updated>
     </task>
     <task id="LOCAL-00008" summary="add list demo">
       <created>1537721008272</created>
@@ -752,7 +745,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540232551576</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="homework update~">
+      <created>1540363922407</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1540363922407</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1242,15 +1242,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homework10.24-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
           <folding>
-            <marker date="1540363888732" expanded="true" signature="16:17" ph="..." />
-            <marker date="1540363888732" expanded="true" signature="16:22" ph="..." />
-            <marker date="1540363888732" expanded="true" signature="166:211" ph="..." />
-            <marker date="1540363888732" expanded="true" signature="228:297" ph="..." />
-            <marker date="1540363888732" expanded="true" signature="317:381" ph="..." />
-            <marker date="1540363888732" expanded="true" signature="463:649" ph="..." />
+            <marker date="1540364406003" expanded="true" signature="16:17" ph="..." />
+            <marker date="1540364406003" expanded="true" signature="16:22" ph="..." />
+            <marker date="1540364406003" expanded="true" signature="172:217" ph="..." />
+            <marker date="1540364406003" expanded="true" signature="234:303" ph="..." />
+            <marker date="1540364406003" expanded="true" signature="323:387" ph="..." />
+            <marker date="1540364406003" expanded="true" signature="469:655" ph="..." />
           </folding>
         </state>
       </provider>
