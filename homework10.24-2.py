@@ -27,9 +27,8 @@ class ringlinklist:
             self.head = Node(newnode.num)
         else:
             temp = self.head
-            while temp.next is not None:
-                temp = temp.next
-            temp.next = Node(newnode.num)
+            self.head = Node(newnode.num)
+            self.head.next = temp
 
     def removeLastNode(self):
         if self.isEmpty():

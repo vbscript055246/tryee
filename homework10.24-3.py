@@ -2,9 +2,9 @@ import copy
 
 class Node:
 
-    def __init__(self, n):
+    def __init__(self, n, ptr=None):
         self.num = n
-        self.next = None
+        self.next = ptr
 
 
 class ringlinklist:
@@ -32,6 +32,7 @@ class ringlinklist:
                 temp = temp.next
             temp.next = Node(newnode.num)
             temp.next.next = self.head
+            self.head = temp.next
 
     def removeLastNode(self):
         if self.isEmpty():
@@ -77,6 +78,32 @@ class ringlinklist:
             counter += 1
             temp = temp.next
         return counter
+
+    def removeFristNode(self):
+        if self.isEmpty():
+            raise ValueError("空的...")
+        temp = self.head
+        while temp.next is not self.head:
+            temp = temp.next
+        temp.next = self.head.next
+        del self.head
+
+    def insertAtLastNode(self, newnode):
+        if self.isEmpty():
+            self.head = Node(newnode.num)
+            self.head.next = self.head
+        else:
+            temp = self.head
+            while temp.next is not self.head:
+                temp = temp.next
+            temp.next = Node(newnode.num)
+            temp.next.next = self.head
+
+    def insertNode(self, ptr, newnode):
+        temp = self.head
+        while temp is not ptr:
+            temp = temp.next
+        temp.next = Node(newnode.num, temp.next)
 
 
 RLL = ringlinklist()
