@@ -2,9 +2,10 @@ import copy
 
 class Node:
 
-    def __init__(self, n, ptr=None):
+    def __init__(self, n, ptr=None, fptr=None):
         self.num = n
         self.next = ptr
+        self.front = fptr
 
 
 class ringlinklist:
@@ -24,14 +25,12 @@ class ringlinklist:
 
     def insertAtFristNode(self, newnode):
         if self.isEmpty():
-            self.head = Node(newnode.num)
-            self.head.next = self.head
+            self.head = Node(newnode.num, self.head, self.head)
         else:
             temp = self.head
             while temp.next is not self.head:
                 temp = temp.next
-            temp.next = Node(newnode.num)
-            temp.next.next = self.head
+            temp.next = Node(newnode.num, self.head, temp)
             self.head = temp.next
 
     def removeLastNode(self):
@@ -46,6 +45,7 @@ class ringlinklist:
             self.head = None
         else:
             parent.next = self.head
+            self.head.front = parent
         del temp
 
     def concatenate(self, B):
@@ -57,19 +57,18 @@ class ringlinklist:
             while temp.next is not self.head:
                 temp = temp.next
             temp.next = B.head
+            B.head.front = temp
 
             temp = B.head
             while temp.next is not B.head:
                 temp = temp.next
             temp.next = self.head
+            self.head.front = temp
 
     def inverse(self):
         ptr = self.head
-        parent = None
-        next = ptr.next
         while ptr.next is not self.head:
-            ptr.next, parent, ptr, next = parent, ptr, next, next.next
-        self.head.next = ptr
+            ptr.next, ptr.front, ptr = ptr.front, ptr.next, ptr.next
 
     def length(self):
         counter = 1
@@ -86,6 +85,7 @@ class ringlinklist:
         while temp.next is not self.head:
             temp = temp.next
         temp.next = self.head.next
+        self.head.next.front = temp
         del self.head
 
     def insertAtLastNode(self, newnode):
@@ -96,34 +96,13 @@ class ringlinklist:
             temp = self.head
             while temp.next is not self.head:
                 temp = temp.next
-            temp.next = Node(newnode.num)
-            temp.next.next = self.head
+            temp.next = Node(newnode.num, self.head, temp)
+            self.head.front = temp.next
 
     def insertNode(self, ptr, newnode):
         temp = self.head
         while temp is not ptr:
             temp = temp.next
-        temp.next = Node(newnode.num, temp.next)
-
-
-RLL = ringlinklist()
-RLL1 = ringlinklist()
-
-RLL.insertAtFristNode(Node(10))
-RLL.insertAtFristNode(Node(11))
-try:
-    RLL.removeLastNode()
-    RLL.removeLastNode()
-    RLL.removeLastNode()
-    #RLL1.insertAtFristNode(Node(12))
-    #RLL.concatenate(RLL1)
-    RLL.displayAllNode()
-except:
-    pass
-
-
-RLL.insertAtFristNode(Node(10))
-RLL.insertAtFristNode(Node(11))
-
-RLL.inverse()
-RLL.displayAllNode()
+        tmp = temp.next.next
+        temp.next = Node(newnode.num, temp.next, temp)
+        tmp.front = temp.next
