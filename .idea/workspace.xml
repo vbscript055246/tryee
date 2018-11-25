@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67a1daf4-2012-4205-b7f9-ceb7bef88b74" name="Default Changelist" comment="homework update~">
-      <change afterPath="$PROJECT_DIR$/homework10.31-2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework 04-03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework 05-09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework04-05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Treeeeeeyeeee~.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Treeeeeeyeeee~.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework10.24-2.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework10.24-2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,25 +87,27 @@
     <session id="1294211128">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="43" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.10" value="5" />
+          <entry key="project.closed" value="52" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="6" />
           <entry key="project.open.time.11" value="7" />
-          <entry key="project.open.time.12" value="3" />
-          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.12" value="5" />
+          <entry key="project.open.time.13" value="3" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.3" value="6" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="46" />
+          <entry key="project.opened" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -109,7 +115,7 @@
           <entry key="cpp" value="396" />
           <entry key="dummy" value="82" />
           <entry key="md" value="612" />
-          <entry key="py" value="23741" />
+          <entry key="py" value="25117" />
           <entry key="txt" value="200" />
         </counts>
       </usages-collector>
@@ -118,60 +124,37 @@
           <entry key="C++" value="396" />
           <entry key="Markdown" value="165" />
           <entry key="PLAIN_TEXT" value="729" />
-          <entry key="Python" value="23741" />
+          <entry key="Python" value="25117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="2" />
+          <entry key="cpp" value="3" />
           <entry key="md" value="6" />
-          <entry key="py" value="121" />
+          <entry key="py" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C++" value="2" />
+          <entry key="C++" value="3" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="121" />
+          <entry key="Python" value="136" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/homework10.31-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-              <folding>
-                <element signature="e#163#179#0" />
-                <element signature="e#219#358#0" />
-                <element signature="e#391#415#0" />
-                <element signature="e#504#844#0" />
-                <element signature="e#843#1166#0" />
-                <element signature="e#1241#1695#0" />
-                <element signature="e#1728#1894#0" />
-                <element signature="e#1860#2011#0" />
-                <element signature="e#2052#2261#0" />
-                <element signature="e#2373#2693#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/homework10.31-2.py">
+        <entry file="file://$PROJECT_DIR$/homework 05-09.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="192">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <marker date="1540967146849" expanded="true" signature="11:12" ph="..." />
-                <marker date="1540967146849" expanded="true" signature="11:17" ph="..." />
-                <marker date="1540967146849" expanded="true" signature="109:110" ph="..." />
-                <marker date="1540967146849" expanded="true" signature="243:463" ph="..." />
-                <marker date="1540967146849" expanded="true" signature="477:846" ph="..." />
+                <marker date="1543177183134" expanded="true" signature="29:30" ph="..." />
+                <marker date="1543177183134" expanded="true" signature="203:244" ph="..." />
+                <marker date="1543177183134" expanded="true" signature="500:1117" ph="..." />
               </folding>
             </state>
           </provider>
@@ -243,18 +226,20 @@
         <option value="$PROJECT_DIR$/homework-bonus-03-01.py" />
         <option value="$PROJECT_DIR$/homework10.24.py" />
         <option value="$PROJECT_DIR$/homework10.24-1.py" />
-        <option value="$PROJECT_DIR$/homework10.24-2.py" />
         <option value="$PROJECT_DIR$/homework10.24-3.py" />
         <option value="$PROJECT_DIR$/homework10.31-1.py" />
         <option value="$PROJECT_DIR$/homework10.31-2.py" />
+        <option value="$PROJECT_DIR$/homework10.24-2.py" />
+        <option value="$PROJECT_DIR$/homework 04-03.py" />
+        <option value="$PROJECT_DIR$/homework04-05.py" />
+        <option value="$PROJECT_DIR$/homework 05-09.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-170" />
-    <option name="y" value="231" />
-    <option name="width" value="1820" />
-    <option name="height" value="1112" />
+    <option name="x" value="505" />
+    <option name="width" value="526" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -264,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,11 +260,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -299,8 +284,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.homework10.24-3">
-    <configuration name="homework-bonus-03-01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.homework 05-09">
+    <configuration name="homework 04-03" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Treeeeeeyeeee~" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,7 +297,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework-bonus-03-01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework 04-03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="homework 05-09" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Treeeeeeyeeee~" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/homework 05-09.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,41 +390,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quiz" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Treeeeeeyeeee~" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.quiz" />
-      <item itemvalue="Python.homework-bonus-03-01" />
       <item itemvalue="Python.homework10.24-1" />
       <item itemvalue="Python.homework10.24-2" />
       <item itemvalue="Python.homework10.24-3" />
+      <item itemvalue="Python.homework 04-03" />
+      <item itemvalue="Python.homework 05-09" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.homework 05-09" />
+        <item itemvalue="Python.homework 04-03" />
         <item itemvalue="Python.homework10.24-3" />
         <item itemvalue="Python.homework10.24-2" />
         <item itemvalue="Python.homework10.24-1" />
-        <item itemvalue="Python.homework-bonus-03-01" />
-        <item itemvalue="Python.quiz" />
       </list>
     </recent_temporary>
   </component>
@@ -789,16 +774,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1111" height="591" extended-state="6" />
+    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.19906542" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.21157685" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.13473053" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6184739" weight="0.375" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" weight="0.48" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6184739" weight="0.37438422" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" visible="true" weight="0.47947454" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49906543" weight="0.3272727" />
@@ -811,19 +796,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.1635514" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4971591" visible="true" weight="0.21157685" />
       <window_info id="Structure" order="1" sideWeight="0.50284094" side_tool="true" weight="0.13473053" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62056077" weight="0.3925" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" weight="0.37272727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6184739" weight="0.375" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7198795" weight="0.48" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49906543" weight="0.3272727" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49813083" weight="0.46" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49698794" weight="0.23636363" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.37943926" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.3815261" side_tool="true" weight="0.38" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49906543" weight="0.3272727" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -939,56 +924,71 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.24-2.py</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/homework 05-09.py</url>
+          <line>26</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.24-2.py</url>
-          <line>51</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.24-2.py</url>
-          <line>50</line>
+          <url>file://$PROJECT_DIR$/homework 05-09.py</url>
+          <line>32</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.24-2.py</url>
-          <line>48</line>
+          <url>file://$PROJECT_DIR$/homework 05-09.py</url>
+          <line>27</line>
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.24-2.py</url>
-          <line>45</line>
+          <url>file://$PROJECT_DIR$/homework 05-09.py</url>
+          <line>28</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.24-2.py</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/homework 05-09.py</url>
+          <line>29</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.24-2.py</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/homework 05-09.py</url>
+          <line>30</line>
           <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/homework10.24-2.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="string[1:-1]" language="Python" />
-        <watch expression="self" />
+        <watch expression="self.heap[ptr*2]" language="Python" />
+        <watch expression="self.heap[ptr*2+1]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>self.heap[ptr*2+1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.heap[ptr*2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(self.heap[ptr*2], ptr*2 if self.heap[ptr*2] &gt; self.heap[ptr*2+1] else self.heap[ptr*2+1], ptr*2+1)[1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(self.heap[ptr*2], ptr*2 if self.heap[ptr*2] &gt; self.heap[ptr*2+1] else self.heap[ptr*2+1], ptr*2+1)[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(self.heap[ptr*2], ptr*2 if self.heap[ptr*2] &gt; self.heap[ptr*2+1] else self.heap[ptr*2+1], ptr*2+1 &gt; self.heap[-1])[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>string[1:-1]</expression-string>
         <language-id>Python</language-id>
@@ -1011,31 +1011,6 @@
       </expression>
       <expression>
         <expression-string>''.join(stack[n+1:m-1])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str(stack[n+1:m-1])''.join(stack[n+1:m-1])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>str(stack[n+1:m-1])</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>stack[n+1:m-1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>stack[n:m]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>stack[n:m+1]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1077,13 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
           <caret line="160" column="30" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/111_Bonus_9.27.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1147,12 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <marker date="1539017928525" expanded="true" signature="106:109" ph="..." />
-            <marker date="1539017928525" expanded="true" signature="133:460" ph="..." />
-            <marker date="1539017928525" expanded="true" signature="494:495" ph="..." />
-            <marker date="1539017928525" expanded="true" signature="494:1193" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1160,9 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <marker date="1539017920331" expanded="true" signature="85:90" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1174,13 +1133,6 @@
       </provider>
     </entry>
     <entry file="file://D:/download/40711015E_05.py" />
-    <entry file="file://$PROJECT_DIR$/bonus_temp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework10.3-2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -1205,13 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/111-quiz1_10.11.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo_stack.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1219,27 +1164,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/matrix abcd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/270912700/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="5152" column="8" selection-start-line="5152" selection-start-column="8" selection-end-line="5152" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz.py" />
+    <entry file="file://$PROJECT_DIR$/matrix abcd.py" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/270912700/builtins.py" />
     <entry file="file://$PROJECT_DIR$/homework10.17-1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1261,117 +1188,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework-bonus-03-01.py">
+    <entry file="file://$PROJECT_DIR$/homework-bonus-03-01.py" />
+    <entry file="file://$PROJECT_DIR$/homework-bonus-02-02.py" />
+    <entry file="file://$PROJECT_DIR$/homework-bonus-02-03.py" />
+    <entry file="file://$PROJECT_DIR$/HW_on_class10.17.py" />
+    <entry file="file://$PROJECT_DIR$/list_to_ring(Josephus problem).py" />
+    <entry file="file://$PROJECT_DIR$/demo_queue.py" />
+    <entry file="file://$PROJECT_DIR$/homework10.31-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-bonus-02-02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework-bonus-02-03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW_on_class10.17.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list_to_ring(Josephus problem).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="29" column="21" lean-forward="true" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/homework10.24-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-          <folding>
-            <marker date="1540370302162" expanded="true" signature="24:101" ph="..." />
-            <marker date="1540370302162" expanded="true" signature="120:121" ph="..." />
-            <marker date="1540370302162" expanded="true" signature="120:126" ph="..." />
-            <marker date="1540370302162" expanded="true" signature="201:317" ph="..." />
-            <marker date="1540370302162" expanded="true" signature="416:610" ph="..." />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework10.24-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <marker date="1540364406003" expanded="true" signature="16:17" ph="..." />
-            <marker date="1540364406003" expanded="true" signature="16:22" ph="..." />
-            <marker date="1540364406003" expanded="true" signature="172:217" ph="..." />
-            <marker date="1540364406003" expanded="true" signature="234:303" ph="..." />
-            <marker date="1540364406003" expanded="true" signature="323:387" ph="..." />
-            <marker date="1540364406003" expanded="true" signature="469:655" ph="..." />
-          </folding>
+        <state relative-caret-position="-8">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework10.24-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework10.24-3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="105" column="48" lean-forward="true" selection-end-line="105" selection-end-column="48" />
-          <folding>
-            <element signature="e#467#803#0" />
-            <marker date="1540370963821" expanded="true" signature="458:809" ph="..." />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homework10.31-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="88" column="21" lean-forward="true" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
-          <folding>
-            <element signature="e#163#179#0" />
-            <element signature="e#219#358#0" />
-            <element signature="e#391#415#0" />
-            <element signature="e#504#844#0" />
-            <element signature="e#843#1166#0" />
-            <element signature="e#1241#1695#0" />
-            <element signature="e#1728#1894#0" />
-            <element signature="e#1860#2011#0" />
-            <element signature="e#2052#2261#0" />
-            <element signature="e#2373#2693#0" />
-          </folding>
+        <state relative-caret-position="-8">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homework10.31-2.py">
+    <entry file="file://$PROJECT_DIR$/homework04-05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="330">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework 04-03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111_Bonus_9.27.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/111-quiz1_10.11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bonus_temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo operator(big number).cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/donwload/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../師大選課系統超爛/test.py" />
+    <entry file="file://$PROJECT_DIR$/homework 05-09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <marker date="1540967146849" expanded="true" signature="11:12" ph="..." />
-            <marker date="1540967146849" expanded="true" signature="11:17" ph="..." />
-            <marker date="1540967146849" expanded="true" signature="109:110" ph="..." />
-            <marker date="1540967146849" expanded="true" signature="243:463" ph="..." />
-            <marker date="1540967146849" expanded="true" signature="477:846" ph="..." />
+            <marker date="1543177183134" expanded="true" signature="29:30" ph="..." />
+            <marker date="1543177183134" expanded="true" signature="203:244" ph="..." />
+            <marker date="1543177183134" expanded="true" signature="500:1117" ph="..." />
           </folding>
         </state>
       </provider>

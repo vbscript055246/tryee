@@ -7,7 +7,7 @@ class Node:
         self.next = None
 
 
-class ringlinklist:
+class linklist:
 
     def __init__(self):
         self.head = None
@@ -71,8 +71,8 @@ class ringlinklist:
         return counter
 
 
-RLL = ringlinklist()
-RLL1 = ringlinklist()
+RLL = linklist()
+RLL1 = linklist()
 RLL.insertAtFristNode(Node(10))
 RLL.insertAtFristNode(Node(11))
 #RLL.displayAllNode()
