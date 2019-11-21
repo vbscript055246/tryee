@@ -2,8 +2,8 @@ import random
 random.seed()
 
 edge_table = [
-   #  A  B  C  D  E  F  G
-    [ 0, 1, 0, 1,12, 0, 0],	# A
+ 	#  A  B  C  D  E  F  G
+    	[ 0, 1, 0, 1,12, 0, 0],	# A
 	[ 1, 0, 6, 2, 0, 0, 0],	# B
 	[ 0, 6, 0, 5, 0, 0, 8], # C
 	[ 1, 2, 5, 0, 2, 3, 3], # D
