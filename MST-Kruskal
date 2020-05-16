@@ -1,0 +1,70 @@
+import math
+
+edge_table = [
+   #  A  B  C  D  E  F  G  H  I
+    [ 0, 4, 0, 0, 0, 0, 0, 8, 0], # A
+    [ 4, 0, 8, 0, 0, 0, 0,11, 0], # B
+    [ 0, 8, 0, 7, 0, 4, 0, 0, 2], # C
+    [ 0, 0, 7, 0, 9,14, 0, 0, 0], # D
+    [ 0, 0, 0, 9, 0,10, 0, 0, 0], # E
+    [ 0, 0, 4,14,10, 0, 2, 0, 0], # F
+    [ 0, 0, 0, 0, 0, 2, 0, 1, 6], # G
+    [ 8,11, 0, 0, 0, 0, 1, 0, 7], # H
+    [ 0, 0, 2, 0, 0, 0, 6, 7, 0]  # I
+]
+
+# 1. 準備一個集合 存放所有MST的邊
+MST = []
+# 自行設計的紀錄與集合，協助判斷目前執行的狀況
+marker = [0]*9  # 記錄所有節點是否已連接
+trees = []      # 紀錄各邊連結形成的頂點集合，用來確認環是否會形成
+
+# ring check
+def isring(i, j):
+    for tree in trees:
+        if i in tree and j in tree: # 某個要加入的邊，其頂點在同一個集合中，將會造成ring(環)
+            return False
+    return True
+
+
+while not all(marker) or len(trees)>1: # 當全部的節點都加入了，且合併後僅剩一棵樹，該樹為MST
+
+    # 找到最小邊
+    min_edge = math.inf
+    min_i, min_j = -1, -1
+    for i in range(9):
+        for j in range(i+1, 9):
+            if min_edge > edge_table[i][j] and edge_table[i][j] and isring(i, j):
+                min_edge = edge_table[i][j]
+                min_i, min_j = i, j
+    # 做紀錄
+    MST.append([min_edge, min_i, min_j])
+    edge_table[min_i][min_j], edge_table[min_j][min_i], marker[min_i], marker[min_j] = 0, 0, 1, 1
+
+
+    # 在新邊加入後，維持各邊形成的集合(這樣isring()才會運作正常)
+    # 1. 找到新邊的兩個頂點，各自目前所存在的集合
+    tree_i, tree_j = None, None
+    for tree in trees:
+        if min_i in tree:
+            tree_i = tree
+        if min_j in tree:
+            tree_j = tree
+
+    # 2. 三種情況
+    # (1.)皆不存在(產生新的集合)
+    if tree_i is None and tree_j is None:
+        trees.append([min_i, min_j])
+    # (2.)有一邊不存在(存在的將新節點加入)
+    elif tree_j is None:
+        tree_i.append(min_j)
+    elif tree_i is None:
+        tree_j.append(min_i)
+    # (3.)皆存在(合併兩個集合)
+    else:
+        tree_i+=tree_j
+        trees.remove(tree_j)
+
+
+# result
+[print("節點: {}, {};權重: {}".format(chr(item[1]+97), chr(item[2]+97), item[0])) for item in MST]
