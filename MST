@@ -1,7 +1,7 @@
 import random
 import math
 random.seed()
-
+ 
 edge_table = [
    #  A  B  C  D  E  F  G  H  I
     [ 0, 4, 0, 0, 0, 0, 0, 8, 0], # A
