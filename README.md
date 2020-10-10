@@ -49,7 +49,7 @@
 > 而reference的傳法跟原本一樣
 > 只是在函是宣告時使用void swap(int &a,int &b)
 - 其他語言
-    -- Java 都是reference
+    -- Java 基本型態 => by value, 非基本型態 => by reference
     -- python 有方法硬傳reference
 
 
