@@ -1,56 +1,24 @@
-# tryee
-##### 想要我的code嗎？想要的話可以全部給你，去找吧！我把code都放在這裡了~
-##### (有問題就私下密吧~)
-#### 想執行程式碼卻沒有環境可以用[ideone](https://ideone.com/ideone/Index/submit/)直接線上編譯喔~
-#### 寫Python的IDE,我推[Pycharm](https://www.jetbrains.com/pycharm/download/#section=windows)
-#### [pycharm教學](https://github.com/vbscript055246/tryee/blob/master/teach_for_pycharm.md)
-#### [Power Mode酷炫打字](https://www.youtube.com/watch?v=p2p-fLVqs3M&utm_source=Facebook_PicSee)
+這個專案包含多個用於[資料結構](https://courseap2.itc.ntnu.edu.tw/acadmOpenCourse/SyllabusCtrl?year=109&term=1&courseCode=LSU0003&courseGroup=&deptCode=EU11&formS=&classes1=&deptGroup=)課程作業的程式範例，涵蓋不同的程式語言和主題。
 
+## 目錄結構
+- `demo_static_member.cpp`：展示如何在 C++ 中使用靜態成員。
+- `demo_tree.py`：使用 Python 實作樹結構的範例。
+- `homework9.26-1.py`：特定日期的作業程式碼。
+- `MST-prim`：使用 Prim 演算法求解最小生成樹的實作。
+- `demo operator(big number).cpp`：處理大數運算的運算子重載範例。
+- `teach_for_pycharm.md`：關於如何在 PyCharm 中設定的教學文件。
 
-![Imgur](https://i.imgur.com/qNacPip.png)
-### 補充
- - pointer
-一句話: 儲存變數記憶體位址的變數
-> 假設有個變數 A
-> 既然是"變數"就會住在"記憶體上的某個角落"
-> 也就表示是每個"變數"都會有他家"住址"
-> 然後"住址"就是所謂"pointer"
-> "pointer"可以用專門的變數型態儲存
-- reference
-一句話: pointer的改良版,比它省資源(記憶體),也比較好寫
+## 使用說明
 
-- 應用
-> 函數傳參數時,如果想更改傳進來的參數的值
-> 以C來說,假設你想寫個swap(a,b)
-```C
-    void swap(int a,int b){
-        int temp = a;
-        a = b;
-        b = temp;
-    }
-```
-> 這樣是無法更改原值的
-> 原因是swap(int a,int b)這樣的函式 屬於所謂"call by value"
-> 簡單來說就是只把便參數的值傳進函式
-> 所以在函式在執行時,被操作的變數跟原來的不一樣,只是原先的複製體
-> 如果使用swap(int *a,int *b):   \[int *是儲存指標的變數型態\]
+1. **C++ 程式碼**：使用任何支援 C++ 的編譯器編譯並執行 `.cpp` 檔案。
+2. **Python 程式碼**：確保已安裝 Python 3.x，然後在命令列中執行 `python filename.py`。
 
-``` C
-    viod swap(int *a,int *b){
-    //注意 a 裡面儲存的是變數的位址
-//從位址存取變數資料需要"dereference" (在儲存著指標的變數前+*)
-    //所以不可以寫int temp = a;這樣會是把a裡面的地址拿出來
-        int temp = *a;
-        *a = *b;
-        *b = temp;
-    }
-```
-> 在傳參數時也要注意 需要用&+在傳入的參數前 來取得變數的位址
-> 而reference的傳法跟原本一樣
-> 只是在函是宣告時使用void swap(int &a,int &b)
-- 其他語言
-    -- Java 基本型態 => by value, 非基本型態 => by reference
-    -- python 有方法硬傳reference
+## 參與貢獻
 
+歡迎對此專案提出建議或改進。請透過 GitHub 的 issue 或 pull request 功能提交您的建議。
 
-    
+## 聯絡方式
+
+如有任何問題，請聯絡專案擁有者：
+
+- email: [vbscript055246](vbscript055246.cs10@nycu.edu.tw) 
