@@ -16,9 +16,3 @@
 ## 參與貢獻
 
 歡迎對此專案提出建議或改進。請透過 GitHub 的 issue 或 pull request 功能提交您的建議。
-
-## 聯絡方式
-
-如有任何問題，請聯絡專案擁有者：
-
-- email: [vbscript055246](vbscript055246.cs10@nycu.edu.tw) 
